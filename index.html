@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Hermane G.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="logo.jpg">
+</head>
+<body>
+
+  <header>
+    <h1><span class="nom">GNAHOUE</span> <span class="prenom">HERMANE</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="accueil">
+    <div class="accueil-text">
+      <h2>Je suis <span class="highlight">Hermane GNAHOUE</span>, Développeur en devenir passionné par le web et le design !</h2>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="#projets" class="btn"> Voir mes projets</a>
+    </div>
+    <div class="accueil-img">
+      <img src="logo.jpg" alt="Illustration développeur" />
+    </div>
+  </section>
+
+  <section id="apropos">
+    <h2><span class="highlight">À propos</span></h2>
+    <div class="contenu-apropos">
+      <div class="texte">
+        <p>
+          Je m'appelle <span class="highlight">Hermane GNAHOUE</span>, passionné par la création de sites web modernes et interactifs.
+          <br /> <br>
+          Je suis actuellement étudiant en <span class="highlight">développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.
+          <br /> <br>
+          J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+        </p><br>
+        <a href="Cv_GNAHOUE_Hermane.daa" class="btn">Télécharger mon CV</a>
+      </div>
+      <div class="photo">
+        <img src="Herm.jpg" alt="Photo profil" />
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2><span class="highlight">Mes Projets</span></h2>
+    <div class="projets-list">
+      <div class="carte">
+        <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+        <span>#html, #css, #js</span>
+        <a href="#" class="btnn">&emsp;&emsp;Voir&emsp;&emsp;</a>
+      </div>
+      <div class="carte">
+        <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+        <span>#html, #css, #js</span>
+        <a href="#" class="btnn">&emsp;&emsp;Voir&emsp;&emsp;</a>
+      </div>
+      <div class="carte">
+        <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+        <span>#html, #css, #js</span>
+        <a href="#" class="btnn">&emsp;&emsp;Voir&emsp;&emsp;</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences">
+    <h2>Mes Compétences</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <div class="skill">
+          <span>Gestion de projet</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Résolution de problème</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 55%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Adaptabilité</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="skill-card">
+        <h3>Hard Skills</h3>
+        <div class="skill">
+          <span>HTML</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>VS Code</span>
+          <div class="progress-bar">
+            <div class="progress" style="width: 100%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Vous avez un <span class="highlight">projet en tête ?</span><br>
+    N'hésitez pas à <span class="highlight">me contacter</span></h2>
+  
+    <form id="formulaire-contact"
+    action="mailto:hghe2005@gmail.com" method="POST" enctype="text/plain">
+      <div class="double-champ">
+        <input type="text" placeholder="Votre prénom" name="prenom" required>
+        <input type="text" placeholder="Votre nom" name="nom" required>
+      </div>
+      <input type="text" placeholder="Votre sujet" name="sujet" required>
+      <textarea placeholder="Écrivez votre message ici !" name="message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+      </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>Designed by <a href="#">Hermane GNAHOUE</a> with HTML CSS JS</p>
+      <p>Tous droits réservés - 2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
